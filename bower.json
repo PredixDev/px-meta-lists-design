@@ -1,0 +1,27 @@
+{
+  "name": "px-lists-design",
+  "version": "0.0.1",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "Simple list styles for Predix Experience",
+  "main": "_base.lists.scss",
+  "keywords": [
+    "px",
+    "sass",
+    "lists"
+  ],
+  "license": "Apache 2",
+  "homepage": "git://github.sw.ge.com/pxc/px-lists-design.git",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master"
+  }
+}

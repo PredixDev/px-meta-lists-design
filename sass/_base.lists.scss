@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    #LISTS
+\*------------------------------------*/
+
+@import "px-functions-design/sass/tools.functions";
+
+@if import-once('base.lists') {
+
+  /**
+   * Remove extra vertical spacing when nesting lists.
+   */
+  li {
+  
+      > ul,
+      > ol {
+          margin-bottom: 0;
+      }
+  
+  }
+
+}
