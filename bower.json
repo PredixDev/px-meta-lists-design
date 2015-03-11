@@ -1,19 +1,19 @@
 {
-  "name": "px-lists-design",
+  "name": "px-meta-lists-design",
   "version": "0.0.1",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
   ],
-  "description": "Simple list styles for Predix Experience",
-  "main": "_base.lists.scss",
+  "description": "Shortcut collection of list modules for Predix Experience",
+  "main": "_meta.lists.scss",
   "keywords": [
     "px",
     "sass",
     "lists"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/pxc/px-lists-design.git",
+  "homepage": "git://github.sw.ge.com/pxc/px-meta-lists-design.git",
   "private": true,
   "ignore": [
     "**/.*",
@@ -23,6 +23,9 @@
     "tests"
   ],
   "dependencies": {
-    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master"
+    "px-list-bare-design": "git://github.sw.ge.com/pxc/px-list-bare-design.git#master",
+    "px-list-buttons-design": "git://github.sw.ge.com/pxc/px-list-buttons-design.git#master",
+    "px-list-inline-design": "git://github.sw.ge.com/pxc/px-list-inline-design.git#master",
+    "px-list-ui-design": "git://github.sw.ge.com/pxc/px-list-ui-design.git#master"
   }
 }
