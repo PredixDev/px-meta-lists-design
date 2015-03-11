@@ -17,9 +17,9 @@ Install this module and its dependencies using bower:
 
     bower install --save https://github.sw.ge.com/pxc/px-meta-lists-design.git
 
-Once installed, `@import` into your project's Sass file in its Base layer:
+Once installed, `@import` into your project's Sass file in its Meta layer:
 
-    @import "../px-meta-lists-design/base.meta-lists";
+    @import "../px-meta-lists-design/meta.lists";
 
 See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
