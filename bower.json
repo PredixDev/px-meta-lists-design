@@ -24,7 +24,6 @@
   ],
   "dependencies": {
     "px-list-bare-design": "git://github.sw.ge.com/PXd/px-list-bare-design.git#~0.1.0",
-    "px-list-buttons-design": "git://github.sw.ge.com/PXd/px-list-buttons-design.git#~0.1.0",
     "px-list-inline-design": "git://github.sw.ge.com/PXd/px-list-inline-design.git#~0.1.0",
     "px-list-ui-design": "git://github.sw.ge.com/PXd/px-list-ui-design.git#~0.1.0"
   }
