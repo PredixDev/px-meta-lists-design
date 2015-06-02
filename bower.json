@@ -1,6 +1,6 @@
 {
   "name": "px-meta-lists-design",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
@@ -13,7 +13,7 @@
     "lists"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/PXd/px-meta-lists-design.git",
+  "homepage": "git://github.build.ge.com/PXd/px-meta-lists-design.git",
   "private": true,
   "ignore": [
     "**/.*",
@@ -23,8 +23,8 @@
     "tests"
   ],
   "dependencies": {
-    "px-list-bare-design": "git://github.sw.ge.com/PXd/px-list-bare-design.git#~0.1.0",
-    "px-list-inline-design": "git://github.sw.ge.com/PXd/px-list-inline-design.git#~0.1.0",
-    "px-list-ui-design": "git://github.sw.ge.com/PXd/px-list-ui-design.git#~0.1.0"
+    "px-list-bare-design": "git://github.build.ge.com/PXd/px-list-bare-design.git#~0.1.0",
+    "px-list-inline-design": "git://github.build.ge.com/PXd/px-list-inline-design.git#~0.1.0",
+    "px-list-ui-design": "git://github.build.ge.com/PXd/px-list-ui-design.git#~0.1.0"
   }
 }
