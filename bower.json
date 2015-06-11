@@ -1,6 +1,6 @@
 {
   "name": "px-meta-lists-design",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
@@ -25,6 +25,6 @@
   "dependencies": {
     "px-list-bare-design": "git://github.build.ge.com/PXd/px-list-bare-design.git#~0.1.0",
     "px-list-inline-design": "git://github.build.ge.com/PXd/px-list-inline-design.git#~0.1.0",
-    "px-list-ui-design": "git://github.build.ge.com/PXd/px-list-ui-design.git#~0.1.0"
+    "px-list-ui-design": "git://github.build.ge.com/PXd/px-list-ui-design.git#~0.2.0"
   }
 }

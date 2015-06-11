@@ -4,7 +4,7 @@ The Meta Lists module is a shortcut collection of all Predix Experience list rel
 
 ## Dependency
 
-Px's Meta Lists module depends on four other Px modules:
+Px's Meta Lists module depends on three other Px modules:
 
 * [px-list-bare-design](https://github.build.ge.com/PXd/px-list-bare-design)
 * [px-list-inline-design](https://github.build.ge.com/PXd/px-list-inline-design)
