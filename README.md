@@ -18,9 +18,7 @@ Install this module and its dependencies using bower:
 
 Once installed, `@import` into your project's Sass file in its Meta layer:
 
-    @import "../px-meta-lists-design/meta.lists";
-
-See [px-getting-started](https://github.build.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+    @import "px-meta-lists-design/_meta.lists.scss";
 
 ## Variable Flags
 
