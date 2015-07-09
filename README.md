@@ -19,14 +19,3 @@ Install this module and its dependencies using bower:
 Once installed, `@import` into your project's Sass file in its Meta layer:
 
     @import "px-meta-lists-design/_meta.lists.scss";
-
-## Variable Flags
-
-By using Meta Lists you will also set these module feature switches to `true`:
-
-    $inuit-enable-list-inline--delimited
-
-    $inuit-enable-list-ui--tiny
-    $inuit-enable-list-ui--small
-    $inuit-enable-list-ui--large
-    $inuit-enable-list-ui--huge
