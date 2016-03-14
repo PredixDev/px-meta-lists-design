@@ -1,6 +1,6 @@
 {
   "name": "px-meta-lists-design",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
@@ -14,7 +14,7 @@
   ],
   "license": "Apache 2",
   "homepage": "https://github.com/PredixDev/px-meta-lists-design.git",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
