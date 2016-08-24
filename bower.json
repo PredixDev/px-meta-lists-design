@@ -12,7 +12,6 @@
     "sass",
     "lists"
   ],
-  "license": "Apache 2",
   "homepage": "https://github.com/PredixDev/px-meta-lists-design.git",
   "private": false,
   "ignore": [
