@@ -1,3 +1,7 @@
+v0.3.5
+==============================
+* add new demo and auto-ghp
+
 v0.3.4
 ==============================
 * Added OSS notice and changed the repo to be public in bower.
