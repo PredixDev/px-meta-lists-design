@@ -1,6 +1,6 @@
 {
   "name": "px-meta-lists-design",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
@@ -19,11 +19,8 @@
     "node_modules",
     "bower_components",
     "sass",
-    "scripts",
     ".github",
-    "Gruntfile.js",
-    "OSS_Notice.pdf",
-    "sassdoc.json"
+    "OSS_Notice.pdf"
   ],
   "dependencies": {
     "px-list-bare-design": "~0.2.0",
