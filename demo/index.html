@@ -23,20 +23,44 @@
     "https://github.com/PredixDev/px-list-inline-design",
     "https://github.com/PredixDev/px-list-ui-design"
   ]'
-  selected-options="{{selectedOptions}}"
-  hide-demo-container="true">
+  selected-options="{{selectedOptions}}">
+  <!--hide-demo-container="true">-->
 
 <!-- 2: Set Options -->
 <!-- N/A -->
 
 <!-- 3: Make HTML Demo -->
-<!-- N/A -->
+<section data-slot="demoHTML">
+<ul class="list-inline">
+  <li >List Item</li><li >List Item</li><li >List Item</li>
+</ul>
+
+</br></br>
+
+<ul class="list-bare">
+  <li >List Item</li>
+  <li >List Item</li>
+  <li >List Item</li>
+</ul>
+
+</br></br>
+
+<ul class="list-ui">
+  <li class="list-ui__item">List Item</li>
+  <li class="list-ui__item">List Item</li>
+  <li class="list-ui__item">List Item</li>
+</ul>
+</section>
 
 <!-- 4: Set Import Slot -->
-<!-- N/A -->
+<section data-slot="import">
+@import "px-meta-lists-design/_meta.lists.scss";
+</section>
 
 <!-- 5: Set Usage HTML -->
-<!-- N/A -->
+<section data-slot="usage">
+<strong>Note:</strong> refer to the dependent libraries below for details on the enable flags, style variables, and actual usage for list components.
+</section>
 
 </px-sass-doc>
 </template>
@@ -44,6 +68,11 @@
 
 <script>
   Polymer({
-    is: 'local-element-demo'
+    is: 'local-element-demo',
+    attached : function(){
+      this.async(function() {
+        this.fire('px-sass-doc-demo-updated',{})
+      }, 10);
+    }
   });
 </script>
