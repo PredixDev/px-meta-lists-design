@@ -1,10 +1,10 @@
-# Meta Lists
+# px-meta-lists-design
 
-The Meta Lists module is a shortcut collection of all Predix Experience list related modules.
+The Predix UI Meta Lists module is a shortcut collection of all Predix Experience list related modules.
 
-## Dependency
+## Dependencies
 
-Px's Meta Lists module depends on three other Px modules:
+The px-meta-lists-design module depends on three other Px modules:
 
 * [px-list-bare-design](https://github.com/PredixDev/px-list-bare-design)
 * [px-list-inline-design](https://github.com/PredixDev/px-list-inline-design)
