@@ -4,7 +4,7 @@ The Predix UI Meta Lists module is a shortcut collection of all Predix Experienc
 
 ## Dependencies
 
-The px-meta-lists-design module depends on three other Px modules:
+The `px-meta-lists-design` module depends on three other Px modules:
 
 * [px-list-bare-design](https://github.com/PredixDev/px-list-bare-design)
 * [px-list-inline-design](https://github.com/PredixDev/px-list-inline-design)
@@ -19,3 +19,5 @@ Install this module and its dependencies using bower:
 Once installed, `@import` into your project's Sass file in its Meta layer:
 
     @import "px-meta-lists-design/_meta.lists.scss";
+    
+View the full API [here](http://predixdev.github.io/px-meta-lists-design/).
