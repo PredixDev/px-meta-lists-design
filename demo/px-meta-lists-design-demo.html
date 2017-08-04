@@ -6,7 +6,7 @@
 <link rel="import" href="../css/px-meta-lists-design-demo-styles.html" />
 
 <!-- Demo DOM module -->
-<dom-module id="local-element-demo">
+<dom-module id="px-meta-lists-design-demo">
   <template>
     <!-- 0: Import the styles-->
     <style include="px-meta-lists-design-demo-styles" is="custom-style"></style>
@@ -68,7 +68,7 @@
 
 <script>
   Polymer({
-    is: 'local-element-demo',
+    is: 'px-meta-lists-design-demo',
     attached : function(){
       this.async(function() {
         this.fire('px-sass-doc-demo-updated',{})
